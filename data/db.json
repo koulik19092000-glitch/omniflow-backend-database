@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-09T14:26:56.051Z",
+  "exportedAt": "2026-11-09T14:27:11.422Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -42,6 +42,28 @@
     }
   ],
   "tasks": [
+    {
+      "projectId": "proj-26ls7mc-mw9cthz2",
+      "title": "data base",
+      "description": "Created via rapid inline task adder.",
+      "status": "IN_REVIEW",
+      "priority": "MEDIUM",
+      "assigneeId": "user-superadmin",
+      "reporterId": "user-superadmin",
+      "dueDate": "2026-11-16",
+      "estimatedHours": 4,
+      "loggedHours": 0,
+      "tags": [
+        "FastTrack"
+      ],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "id": "task-yrubomi-mw9cuq5h",
+      "tenantId": "tenant-main",
+      "createdAt": "2026-11-09T14:27:09.413Z",
+      "updatedAt": "2026-11-09T14:27:09.413Z"
+    },
     {
       "projectId": "proj-26ls7mc-mw9cthz2",
       "title": "front end",
@@ -112,6 +134,17 @@
   "sprints": [],
   "documents": [],
   "activities": [
+    {
+      "id": "act-lcld2y4-mw9cuq5i",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "created new task",
+      "targetType": "TASK",
+      "targetName": "data base",
+      "timestamp": "2026-11-09T14:27:09.414Z"
+    },
     {
       "id": "act-qxhrj2j-mw9cueai",
       "tenantId": "tenant-main",
