@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-09T14:27:11.422Z",
+  "exportedAt": "2026-11-09T14:28:01.580Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -135,6 +135,18 @@
   "documents": [],
   "activities": [
     {
+      "id": "act-mg1yknl-mw9cvsui",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "invited team member",
+      "targetType": "MEMBER",
+      "targetName": "koulik de sarkar",
+      "timestamp": "2026-11-09T14:27:59.562Z",
+      "details": "Role: PROJECT_MANAGER"
+    },
+    {
       "id": "act-lcld2y4-mw9cuq5i",
       "tenantId": "tenant-main",
       "userId": "user-current",
@@ -215,6 +227,18 @@
       "designation": "Faculty Guide & System Architect",
       "department": "Computer Science & Engineering",
       "joinedAt": "2026-11-09T14:22:51.302Z"
+    },
+    {
+      "name": "koulik de sarkar",
+      "email": "koulik19092000@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
+      "role": "PROJECT_MANAGER",
+      "status": "ACTIVE",
+      "designation": "Full Stack Developer",
+      "department": "Engineering",
+      "id": "user-tx56gqw-mw9cvsug",
+      "tenantId": "tenant-main",
+      "joinedAt": "2026-11-09T14:27:59.560Z"
     }
   ]
 }
