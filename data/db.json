@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-09T14:26:32.698Z",
+  "exportedAt": "2026-11-09T14:26:45.416Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -13,84 +13,17 @@
       "maxMembers": 100,
       "status": "ACTIVE",
       "domain": "workspace.saaspm.io",
-      "createdAt": "2026-11-09T14:22:51.301Z",
+      "createdAt": "2026-11-09T14:26:42.640Z",
       "primaryColor": "#4f46e5",
       "description": "Clean enterprise production workspace.",
       "industry": "Software & Technology"
     }
   ],
-  "projects": [
-    {
-      "name": "acharya",
-      "key": "A",
-      "description": "clg",
-      "status": "ACTIVE",
-      "progress": 0,
-      "startDate": "2026-11-09",
-      "dueDate": "2027-01-08",
-      "managerId": "user-superadmin",
-      "budget": 25000,
-      "spent": 0,
-      "teamMemberIds": [
-        "user-superadmin"
-      ],
-      "category": "Cloud Infrastructure",
-      "priority": "HIGH",
-      "color": "#4f46e5",
-      "id": "proj-26ls7mc-mw9cthz2",
-      "tenantId": "tenant-main"
-    }
-  ],
-  "tasks": [
-    {
-      "projectId": "proj-26ls7mc-mw9cthz2",
-      "title": "backend is not working proper;y",
-      "description": "Created via rapid inline task adder.",
-      "status": "BACKLOG",
-      "priority": "MEDIUM",
-      "assigneeId": "user-superadmin",
-      "reporterId": "user-superadmin",
-      "dueDate": "2026-11-16",
-      "estimatedHours": 4,
-      "loggedHours": 0,
-      "tags": [
-        "FastTrack"
-      ],
-      "subtasks": [],
-      "attachments": [],
-      "comments": [],
-      "id": "task-3wa3k4h-mw9ctw94",
-      "tenantId": "tenant-main",
-      "createdAt": "2026-11-09T14:26:30.664Z",
-      "updatedAt": "2026-11-09T14:26:30.664Z"
-    }
-  ],
+  "projects": [],
+  "tasks": [],
   "sprints": [],
   "documents": [],
-  "activities": [
-    {
-      "id": "act-2ph0oxa-mw9ctw97",
-      "tenantId": "tenant-main",
-      "userId": "user-current",
-      "userName": "Current User",
-      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
-      "action": "created new task",
-      "targetType": "TASK",
-      "targetName": "backend is not working proper;y",
-      "timestamp": "2026-11-09T14:26:30.667Z"
-    },
-    {
-      "id": "act-m1ywgxf-mw9cthz3",
-      "tenantId": "tenant-main",
-      "userId": "user-current",
-      "userName": "Current User",
-      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
-      "action": "created new project",
-      "targetType": "PROJECT",
-      "targetName": "acharya",
-      "timestamp": "2026-11-09T14:26:12.159Z"
-    }
-  ],
+  "activities": [],
   "notifications": [],
   "users": [
     {
@@ -103,7 +36,7 @@
       "status": "ACTIVE",
       "designation": "Technical Project Lead",
       "department": "Engineering",
-      "joinedAt": "2026-11-09T14:22:51.302Z"
+      "joinedAt": "2026-11-09T14:26:42.641Z"
     },
     {
       "id": "user-superadmin",
@@ -115,7 +48,7 @@
       "status": "ACTIVE",
       "designation": "Faculty Guide & System Architect",
       "department": "Computer Science & Engineering",
-      "joinedAt": "2026-11-09T14:22:51.302Z"
+      "joinedAt": "2026-11-09T14:26:42.641Z"
     }
   ]
 }
