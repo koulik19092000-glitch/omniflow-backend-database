@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-09T15:00:34.261Z",
+  "exportedAt": "2026-11-09T15:00:48.304Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -69,7 +69,7 @@
       "title": "fixing the backlog and security of the webpage",
       "description": "Created via rapid inline task adder.",
       "status": "TODO",
-      "priority": "MEDIUM",
+      "priority": "CRITICAL",
       "assigneeId": "user-superadmin",
       "reporterId": "user-superadmin",
       "dueDate": "2026-11-16",
@@ -84,7 +84,7 @@
       "id": "task-cqzmjti-mw9cua3z",
       "tenantId": "tenant-main",
       "createdAt": "2026-11-09T14:26:48.623Z",
-      "updatedAt": "2026-11-09T14:26:48.623Z"
+      "updatedAt": "2026-11-09T15:00:46.272Z"
     },
     {
       "projectId": "proj-26ls7mc-mw9cthz2",
