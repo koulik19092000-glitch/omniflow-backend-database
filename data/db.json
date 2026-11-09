@@ -1,0 +1,492 @@
+{
+  "tenants": [
+    {
+      "id": "tenant-main",
+      "name": "Primary Organization Workspace",
+      "slug": "primary-workspace",
+      "logoUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100&auto=format&fit=crop&q=60",
+      "tier": "ENTERPRISE",
+      "storageUsedMb": 124,
+      "storageLimitMb": 50000,
+      "maxMembers": 100,
+      "status": "ACTIVE",
+      "domain": "workspace.saaspm.io",
+      "createdAt": "2026-08-20T10:00:00.000Z",
+      "primaryColor": "#4f46e5",
+      "description": "Clean enterprise production workspace.",
+      "industry": "Software & Technology"
+    },
+    {
+      "id": "tenant-globex",
+      "name": "Globex Research Labs",
+      "slug": "globex-labs",
+      "logoUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=100&auto=format&fit=crop&q=60",
+      "tier": "PRO",
+      "storageUsedMb": 45,
+      "storageLimitMb": 10000,
+      "maxMembers": 25,
+      "status": "ACTIVE",
+      "domain": "globex.saaspm.io",
+      "createdAt": "2026-09-01T08:30:00.000Z",
+      "primaryColor": "#059669",
+      "description": "Advanced AI and bio-informatics workspace.",
+      "industry": "Biotechnology & AI"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-superadmin",
+      "name": "Dr. Rajendra Jotawar",
+      "email": "rajendra2842@acharya.ac.in",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
+      "role": "SUPER_ADMIN",
+      "tenantId": "tenant-main",
+      "status": "ACTIVE",
+      "designation": "Faculty Guide & System Architect",
+      "department": "Computer Science & Engineering",
+      "joinedAt": "2026-08-20T10:00:00.000Z",
+      "passwordHash": "$2b$10$0DOz9YcXHmJremLOjSELguhReM9ejWQKpcUDEjCy91hj2GRL8vaEG",
+      "emailVerified": true
+    },
+    {
+      "id": "user-admin",
+      "name": "Koulik De Sarkar",
+      "email": "koulik@workspace.saaspm.io",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "role": "ORG_ADMIN",
+      "tenantId": "tenant-main",
+      "status": "ACTIVE",
+      "designation": "Technical Project Lead",
+      "department": "Engineering",
+      "joinedAt": "2026-08-20T10:00:00.000Z",
+      "passwordHash": "$2b$10$0DOz9YcXHmJremLOjSELguhReM9ejWQKpcUDEjCy91hj2GRL8vaEG",
+      "emailVerified": true
+    },
+    {
+      "id": "user-pm",
+      "name": "Sarah Connor",
+      "email": "sarah@workspace.saaspm.io",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&auto=format&fit=crop&q=80",
+      "role": "PROJECT_MANAGER",
+      "tenantId": "tenant-main",
+      "status": "ACTIVE",
+      "designation": "Senior Product Manager",
+      "department": "Product",
+      "joinedAt": "2026-08-25T11:00:00.000Z",
+      "passwordHash": "$2b$10$0DOz9YcXHmJremLOjSELguhReM9ejWQKpcUDEjCy91hj2GRL8vaEG",
+      "emailVerified": true
+    },
+    {
+      "id": "user-dev",
+      "name": "Alex Rivera",
+      "email": "alex@workspace.saaspm.io",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80",
+      "role": "MEMBER",
+      "tenantId": "tenant-main",
+      "status": "ACTIVE",
+      "designation": "Full-Stack Software Engineer",
+      "department": "Engineering",
+      "joinedAt": "2026-08-25T11:30:00.000Z",
+      "passwordHash": "$2b$10$0DOz9YcXHmJremLOjSELguhReM9ejWQKpcUDEjCy91hj2GRL8vaEG",
+      "emailVerified": true
+    },
+    {
+      "id": "user-1793957950489",
+      "tenantId": "tenant-main",
+      "status": "ACTIVE",
+      "role": "MEMBER",
+      "emailVerified": true,
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&auto=format&fit=crop&q=80",
+      "joinedAt": "2026-11-06T09:39:10.489Z",
+      "name": "Enterprise Engineer",
+      "email": "test-1793957950378@workspace.saaspm.io",
+      "passwordHash": "$2b$10$PwjoW.AAt4qYkZNb6QQ0Fe/.gsALKutG6wYLH/N4.blmYPMCh5aIO"
+    },
+    {
+      "id": "user-1793958280380",
+      "tenantId": "tenant-main",
+      "status": "ACTIVE",
+      "role": "MEMBER",
+      "emailVerified": true,
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&auto=format&fit=crop&q=80",
+      "joinedAt": "2026-11-06T09:44:40.380Z",
+      "name": "Enterprise Engineer",
+      "email": "test-1793958280266@workspace.saaspm.io",
+      "passwordHash": "$2b$10$UOyaDr0hWnQPq0RfyeAM8e3MRfnv81EYAe04hV4KksRNKBIPTtQJ6"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "tenantId": "tenant-main",
+      "name": "Multi-Tenant SaaS Platform Core",
+      "key": "OMNI",
+      "description": "Cloud project governance system with offline-first client architecture and AI automation.",
+      "status": "ACTIVE",
+      "progress": 75,
+      "startDate": "2026-08-20",
+      "dueDate": "2026-11-20",
+      "managerId": "user-admin",
+      "budget": 15000,
+      "spent": 4200,
+      "teamMemberIds": [
+        "user-superadmin",
+        "user-admin",
+        "user-pm",
+        "user-dev"
+      ],
+      "category": "Cloud Engineering",
+      "priority": "CRITICAL",
+      "color": "#4f46e5"
+    },
+    {
+      "id": "proj-2",
+      "tenantId": "tenant-main",
+      "name": "AI Risk Engine & NLP Command Bar",
+      "key": "AIRISK",
+      "description": "Deterministic velocity and risk prediction models executing client-side.",
+      "status": "ACTIVE",
+      "progress": 90,
+      "startDate": "2026-09-10",
+      "dueDate": "2026-10-30",
+      "managerId": "user-pm",
+      "budget": 8000,
+      "spent": 2100,
+      "teamMemberIds": [
+        "user-admin",
+        "user-dev"
+      ],
+      "category": "AI & Data Science",
+      "priority": "HIGH",
+      "color": "#06b6d4"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "projectId": "proj-1",
+      "tenantId": "tenant-main",
+      "title": "Architect client-side multi-tenant compound indexes in Dexie.js",
+      "description": "Implement [tenantId+status] and [tenantId+id] compound keys to enforce data isolation.",
+      "status": "DONE",
+      "priority": "CRITICAL",
+      "assigneeId": "user-admin",
+      "reporterId": "user-superadmin",
+      "dueDate": "2026-09-01",
+      "estimatedHours": 16,
+      "loggedHours": 14,
+      "tags": [
+        "architecture",
+        "database",
+        "security"
+      ],
+      "subtasks": [
+        {
+          "id": "sub-1",
+          "title": "Define compound indexes in Dexie schema",
+          "completed": true
+        },
+        {
+          "id": "sub-2",
+          "title": "Verify zero cross-tenant query contamination",
+          "completed": true
+        },
+        {
+          "id": "sub-3",
+          "title": "Add unit tests for tenant boundary queries",
+          "completed": true
+        }
+      ],
+      "attachments": [],
+      "comments": []
+    },
+    {
+      "id": "task-2",
+      "projectId": "proj-1",
+      "tenantId": "tenant-main",
+      "title": "Develop 5-Stage Drag-and-Drop Kanban Board Pipeline",
+      "description": "Support Backlog, Todo, In Progress, In Review, and Done status transitions with sub-100ms updates.",
+      "status": "DONE",
+      "priority": "HIGH",
+      "assigneeId": "user-dev",
+      "reporterId": "user-pm",
+      "dueDate": "2026-09-15",
+      "estimatedHours": 24,
+      "loggedHours": 22,
+      "tags": [
+        "ui",
+        "kanban",
+        "agile"
+      ],
+      "subtasks": [
+        {
+          "id": "sub-4",
+          "title": "Implement HTML5 Drag-and-Drop handlers",
+          "completed": true
+        },
+        {
+          "id": "sub-5",
+          "title": "Connect drag drop to TenantContext state dispatcher",
+          "completed": true
+        }
+      ],
+      "attachments": [],
+      "comments": []
+    },
+    {
+      "id": "task-3",
+      "projectId": "proj-2",
+      "tenantId": "tenant-main",
+      "title": "In-Browser AI Subtask Generator & Acceptance Criteria Engine",
+      "description": "Generate structured subtasks and test criteria using local keyword domain heuristics.",
+      "status": "DONE",
+      "priority": "HIGH",
+      "assigneeId": "user-admin",
+      "reporterId": "user-pm",
+      "dueDate": "2026-10-01",
+      "estimatedHours": 18,
+      "loggedHours": 16,
+      "tags": [
+        "ai",
+        "automation",
+        "nlp"
+      ],
+      "subtasks": [
+        {
+          "id": "sub-6",
+          "title": "Construct task title intent parsing rules",
+          "completed": true
+        },
+        {
+          "id": "sub-7",
+          "title": "Generate acceptance criteria checklist",
+          "completed": true
+        }
+      ],
+      "attachments": [],
+      "comments": []
+    },
+    {
+      "id": "task-4",
+      "projectId": "proj-1",
+      "tenantId": "tenant-main",
+      "title": "Cloud PostgreSQL Supabase Sync Adapter with Row-Level Security",
+      "description": "Implement optional cloud synchronization utilizing app.current_tenant_id session policies.",
+      "status": "IN_PROGRESS",
+      "priority": "CRITICAL",
+      "assigneeId": "user-dev",
+      "reporterId": "user-admin",
+      "dueDate": "2026-10-18",
+      "estimatedHours": 20,
+      "loggedHours": 8,
+      "tags": [
+        "supabase",
+        "postgresql",
+        "cloud-sync"
+      ],
+      "subtasks": [
+        {
+          "id": "sub-8",
+          "title": "Draft schema.sql with RLS policies",
+          "completed": true
+        },
+        {
+          "id": "sub-9",
+          "title": "Create Supabase sync syncQueue queue worker",
+          "completed": false
+        }
+      ],
+      "attachments": [],
+      "comments": []
+    },
+    {
+      "id": "task-1792476624036",
+      "tenantId": "tenant-main",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "loggedHours": 0,
+      "tags": [],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "title": "Harmless Task",
+      "projectId": "proj-1",
+      "description": "",
+      "assigneeId": "user-admin",
+      "reporterId": "user-admin",
+      "dueDate": "2026-10-27",
+      "estimatedHours": 4
+    },
+    {
+      "id": "task-1792476624048",
+      "tenantId": "tenant-main",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "loggedHours": 0,
+      "tags": [],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "title": "Task with Injected Tag",
+      "projectId": "proj-1",
+      "description": "Test <img src=x alert(1)> description",
+      "assigneeId": "user-admin",
+      "reporterId": "user-admin",
+      "dueDate": "2026-10-27",
+      "estimatedHours": 4
+    },
+    {
+      "id": "task-1792476657211",
+      "tenantId": "tenant-main",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "loggedHours": 0,
+      "tags": [],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "title": "Task with Injected Tag",
+      "projectId": "proj-1",
+      "description": "Test <img src=x alert(1)> description",
+      "assigneeId": "user-admin",
+      "reporterId": "user-admin",
+      "dueDate": "2026-10-27",
+      "estimatedHours": 4
+    },
+    {
+      "id": "task-1792476667633",
+      "tenantId": "tenant-main",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "loggedHours": 0,
+      "tags": [],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "title": "Task with Injected Tag",
+      "projectId": "proj-1",
+      "description": "Test <img src=x alert(1)> description",
+      "assigneeId": "user-admin",
+      "reporterId": "user-admin",
+      "dueDate": "2026-10-27",
+      "estimatedHours": 4
+    },
+    {
+      "id": "task-1792476782280",
+      "tenantId": "tenant-main",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "loggedHours": 0,
+      "tags": [],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "title": "Task with Injected Tag",
+      "projectId": "proj-1",
+      "description": "Test <img src=x alert(1)> description",
+      "assigneeId": "user-admin",
+      "reporterId": "user-admin",
+      "dueDate": "2026-10-27",
+      "estimatedHours": 4
+    },
+    {
+      "id": "task-1793957950773",
+      "tenantId": "tenant-main",
+      "status": "TODO",
+      "priority": "HIGH",
+      "loggedHours": 0,
+      "tags": [],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "title": "Real-time WebSocket Synchronized Issue",
+      "projectId": "proj-1",
+      "description": "",
+      "assigneeId": "user-admin",
+      "reporterId": "user-admin",
+      "dueDate": "2026-11-13",
+      "estimatedHours": 4
+    },
+    {
+      "id": "task-1793958280683",
+      "tenantId": "tenant-main",
+      "status": "TODO",
+      "priority": "HIGH",
+      "loggedHours": 0,
+      "tags": [],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "title": "Real-time WebSocket Synchronized Issue",
+      "projectId": "proj-1",
+      "description": "",
+      "assigneeId": "user-admin",
+      "reporterId": "user-admin",
+      "dueDate": "2026-11-13",
+      "estimatedHours": 4
+    },
+    {
+      "id": "task-1793958288515",
+      "tenantId": "tenant-main",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "loggedHours": 0,
+      "tags": [],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "title": "Task with Injected Tag",
+      "projectId": "proj-1",
+      "description": "Test <img src=x alert(1)> description",
+      "assigneeId": "user-admin",
+      "reporterId": "user-admin",
+      "dueDate": "2026-11-13",
+      "estimatedHours": 4
+    }
+  ],
+  "sprints": [
+    {
+      "id": "sprint-1",
+      "tenantId": "tenant-main",
+      "projectId": "proj-1",
+      "name": "Sprint 1: Core Foundation & Multi-Tenancy",
+      "goal": "Deliver database schemas, RBAC guards, and initial Kanban board",
+      "startDate": "2026-08-20",
+      "endDate": "2026-09-10",
+      "status": "COMPLETED"
+    },
+    {
+      "id": "sprint-2",
+      "tenantId": "tenant-main",
+      "projectId": "proj-1",
+      "name": "Sprint 2: AI Intelligence & Automation",
+      "goal": "Deliver in-browser AI features and project risk predictor",
+      "startDate": "2026-09-11",
+      "endDate": "2026-10-12",
+      "status": "ACTIVE"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-1",
+      "tenantId": "tenant-main",
+      "projectId": "proj-1",
+      "title": "Architecture Blueprint: 3-Tier Multi-Tenant SaaS Platform",
+      "content": "Detailed specifications for client-side ACID transactions, Dexie IndexedDB schemas, and Netlify edge deployment.",
+      "authorId": "user-admin",
+      "updatedAt": "2026-10-10T14:30:00.000Z",
+      "category": "Architecture"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1",
+      "tenantId": "tenant-main",
+      "userId": "user-admin",
+      "userName": "Koulik De Sarkar",
+      "action": "completed task",
+      "target": "In-Browser AI Subtask Generator",
+      "timestamp": "2026-10-01T15:20:00.000Z"
+    }
+  ]
+}
