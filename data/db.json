@@ -196,6 +196,15 @@
       "tenantId": "tenant-main",
       "createdAt": "2026-10-01T07:22:15.149Z",
       "updatedAt": "2026-10-01T07:22:15.149Z"
+    },
+    {
+      "id": "gh-auto-sync-test-1794232723491",
+      "title": "Cloud Auto-Sync Live Verification",
+      "status": "done",
+      "priority": "low",
+      "tenantId": "tenant-alpha",
+      "description": "Verified real-time persistence from browser UI to GitHub REST backend.",
+      "updatedAt": "2026-11-09T13:58:43.491Z"
     }
   ],
   "sprints": [],
@@ -512,5 +521,6 @@
       "department": "Computer Science & Engineering",
       "joinedAt": "2026-10-01T06:46:35.503Z"
     }
-  ]
+  ],
+  "lastUpdated": "2026-11-09T13:58:43.494Z"
 }
