@@ -1,56 +1,56 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-09T14:37:10.098Z",
+  "exportedAt": "2026-11-09T13:55:37.765Z",
   "tenants": [
     {
       "id": "tenant-main",
-      "name": "Primary Organization Workspace",
+      "name": "ACHARYA INSTITUTE OF TECHNOLOGY",
       "slug": "primary-workspace",
       "logoUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100&auto=format&fit=crop&q=60",
-      "tier": "ENTERPRISE",
+      "tier": "FREE",
       "storageUsedMb": 0,
-      "storageLimitMb": 50000,
-      "maxMembers": 100,
+      "storageLimitMb": 500,
+      "maxMembers": 5,
       "status": "ACTIVE",
       "domain": "workspace.saaspm.io",
-      "createdAt": "2026-11-09T14:22:51.301Z",
+      "createdAt": "2026-10-01T06:46:35.502Z",
       "primaryColor": "#4f46e5",
-      "description": "Clean enterprise production workspace.",
+      "description": "ACHARYA \n",
       "industry": "Software & Technology"
     }
   ],
   "projects": [
     {
-      "name": "acharya",
-      "key": "A",
-      "description": "clg",
+      "name": "acharya erp",
+      "key": "AE",
+      "description": "update erp in a  incermental order",
       "status": "ACTIVE",
       "progress": 0,
-      "startDate": "2026-11-09",
-      "dueDate": "2027-01-08",
+      "startDate": "2026-10-01",
+      "dueDate": "2026-10-16",
       "managerId": "user-superadmin",
-      "budget": 25000,
+      "budget": 2500,
       "spent": 0,
       "teamMemberIds": [
         "user-superadmin"
       ],
-      "category": "Cloud Infrastructure",
-      "priority": "HIGH",
+      "category": "ERP",
+      "priority": "CRITICAL",
       "color": "#4f46e5",
-      "id": "proj-26ls7mc-mw9cthz2",
+      "id": "proj-4yq0966-mup6nra1",
       "tenantId": "tenant-main"
     }
   ],
   "tasks": [
     {
-      "projectId": "proj-26ls7mc-mw9cthz2",
-      "title": "backend is not working proper;y",
+      "projectId": "proj-4yq0966-mup6nra1",
+      "title": "overall frontend",
       "description": "Created via rapid inline task adder.",
-      "status": "BACKLOG",
+      "status": "DONE",
       "priority": "MEDIUM",
       "assigneeId": "user-superadmin",
       "reporterId": "user-superadmin",
-      "dueDate": "2026-11-16",
+      "dueDate": "2026-10-08",
       "estimatedHours": 4,
       "loggedHours": 0,
       "tags": [
@@ -59,20 +59,20 @@
       "subtasks": [],
       "attachments": [],
       "comments": [],
-      "id": "task-3wa3k4h-mw9ctw94",
+      "id": "task-0pc78mm-mup6otq4",
       "tenantId": "tenant-main",
-      "createdAt": "2026-11-09T14:26:30.664Z",
-      "updatedAt": "2026-11-09T14:26:30.664Z"
+      "createdAt": "2026-10-01T06:59:30.556Z",
+      "updatedAt": "2026-10-01T06:59:30.556Z"
     },
     {
-      "projectId": "proj-26ls7mc-mw9cthz2",
-      "title": "fixing the backlog and security of the webpage",
+      "projectId": "proj-4yq0966-mup6nra1",
+      "title": "backend not working",
       "description": "Created via rapid inline task adder.",
-      "status": "TODO",
-      "priority": "MEDIUM",
+      "status": "DONE",
+      "priority": "LOW",
       "assigneeId": "user-superadmin",
       "reporterId": "user-superadmin",
-      "dueDate": "2026-11-16",
+      "dueDate": "2026-10-08",
       "estimatedHours": 4,
       "loggedHours": 0,
       "tags": [
@@ -81,20 +81,65 @@
       "subtasks": [],
       "attachments": [],
       "comments": [],
-      "id": "task-cqzmjti-mw9cua3z",
+      "id": "task-667yldl-mup6nu76",
       "tenantId": "tenant-main",
-      "createdAt": "2026-11-09T14:26:48.623Z",
-      "updatedAt": "2026-11-09T14:26:48.623Z"
+      "createdAt": "2026-10-01T06:58:44.514Z",
+      "updatedAt": "2026-10-01T09:12:48.805Z"
     },
     {
-      "projectId": "proj-26ls7mc-mw9cthz2",
-      "title": "front end",
+      "projectId": "proj-4yq0966-mup6nra1",
+      "title": "NOT WORKINH",
+      "description": "NOT",
+      "status": "DONE",
+      "priority": "MEDIUM",
+      "assigneeId": "user-bx5ht7b-mup6xxq7",
+      "reporterId": "user-superadmin",
+      "dueDate": "2026-10-08",
+      "estimatedHours": 8,
+      "loggedHours": 0,
+      "tags": [
+        "Frontend",
+        "Feature"
+      ],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "id": "task-8gj3zha-mup7ubh5",
+      "tenantId": "tenant-main",
+      "createdAt": "2026-10-01T07:31:46.457Z",
+      "updatedAt": "2026-10-01T07:35:13.696Z"
+    },
+    {
+      "projectId": "proj-4yq0966-mup6nra1",
+      "title": "data base problem",
+      "description": "Created via rapid inline task adder.",
+      "status": "DONE",
+      "priority": "URGENT",
+      "assigneeId": "user-superadmin",
+      "reporterId": "user-superadmin",
+      "dueDate": "2026-10-08",
+      "estimatedHours": 4,
+      "loggedHours": 0,
+      "tags": [
+        "FastTrack"
+      ],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "id": "task-r5jh9dq-mup6ohjx",
+      "tenantId": "tenant-main",
+      "createdAt": "2026-10-01T06:59:14.781Z",
+      "updatedAt": "2026-10-12T03:58:30.663Z"
+    },
+    {
+      "projectId": "proj-4yq0966-mup6nra1",
+      "title": "frontend",
       "description": "Created via rapid inline task adder.",
       "status": "IN_PROGRESS",
       "priority": "MEDIUM",
       "assigneeId": "user-superadmin",
       "reporterId": "user-superadmin",
-      "dueDate": "2026-11-16",
+      "dueDate": "2026-10-08",
       "estimatedHours": 4,
       "loggedHours": 0,
       "tags": [
@@ -103,20 +148,20 @@
       "subtasks": [],
       "attachments": [],
       "comments": [],
-      "id": "task-xqqwmpj-mw9cueah",
+      "id": "task-vj2pcnw-mup6o8gn",
       "tenantId": "tenant-main",
-      "createdAt": "2026-11-09T14:26:54.041Z",
-      "updatedAt": "2026-11-09T14:26:54.041Z"
+      "createdAt": "2026-10-01T06:59:02.999Z",
+      "updatedAt": "2026-10-01T06:59:02.999Z"
     },
     {
-      "projectId": "proj-26ls7mc-mw9cthz2",
-      "title": "data base",
+      "projectId": "proj-4yq0966-mup6nra1",
+      "title": "fix the back end",
       "description": "Created via rapid inline task adder.",
-      "status": "IN_REVIEW",
+      "status": "TODO",
       "priority": "MEDIUM",
       "assigneeId": "user-superadmin",
       "reporterId": "user-superadmin",
-      "dueDate": "2026-11-16",
+      "dueDate": "2026-10-08",
       "estimatedHours": 4,
       "loggedHours": 0,
       "tags": [
@@ -125,81 +170,296 @@
       "subtasks": [],
       "attachments": [],
       "comments": [],
-      "id": "task-yrubomi-mw9cuq5h",
+      "id": "task-xm05giv-mup6o28r",
       "tenantId": "tenant-main",
-      "createdAt": "2026-11-09T14:27:09.413Z",
-      "updatedAt": "2026-11-09T14:27:09.413Z"
+      "createdAt": "2026-10-01T06:58:54.939Z",
+      "updatedAt": "2026-10-01T06:58:54.939Z"
+    },
+    {
+      "projectId": "proj-4yq0966-mup6nra1",
+      "title": "NO LOGIN",
+      "description": "Created via rapid inline task adder.",
+      "status": "BACKLOG",
+      "priority": "MEDIUM",
+      "assigneeId": "user-superadmin",
+      "reporterId": "user-superadmin",
+      "dueDate": "2026-10-08",
+      "estimatedHours": 4,
+      "loggedHours": 0,
+      "tags": [
+        "FastTrack"
+      ],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "id": "task-z4mhp1q-mup7i2nh",
+      "tenantId": "tenant-main",
+      "createdAt": "2026-10-01T07:22:15.149Z",
+      "updatedAt": "2026-10-01T07:22:15.149Z"
     }
   ],
   "sprints": [],
-  "documents": [],
+  "documents": [
+    {
+      "name": "BACK END DATA.md",
+      "category": "REPORT",
+      "size": "2.4 MB",
+      "updatedBy": "Dr. Rajendra Jotawar",
+      "projectId": "proj-4yq0966-mup6nra1",
+      "tags": [
+        "Architecture",
+        "SaaS"
+      ],
+      "content": "BACK END IS WORKING WITH HELLOW WORLD CODE",
+      "id": "doc-qkxpko4-mup6wpbr",
+      "tenantId": "tenant-main",
+      "updatedAt": "2026-10-01T07:05:38.103Z"
+    }
+  ],
   "activities": [
     {
-      "id": "act-mg1yknl-mw9cvsui",
+      "id": "act-benscx9-mv4q2fif",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to DONE on",
+      "targetType": "TASK",
+      "targetName": "data base problem",
+      "timestamp": "2026-10-12T03:58:30.663Z"
+    },
+    {
+      "id": "act-xjirec0-mupbg97p",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to DONE on",
+      "targetType": "TASK",
+      "targetName": "backend not working",
+      "timestamp": "2026-10-01T09:12:48.805Z"
+    },
+    {
+      "id": "act-qlg39xm-mupbg382",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to BACKLOG on",
+      "targetType": "TASK",
+      "targetName": "data base problem",
+      "timestamp": "2026-10-01T09:12:41.042Z"
+    },
+    {
+      "id": "act-qjyjsgu-mup8c60i",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "deleted task",
+      "targetType": "TASK",
+      "targetName": "NO LOGIN PAGE",
+      "timestamp": "2026-10-01T07:45:39.186Z"
+    },
+    {
+      "id": "act-zubilsh-mup7yrdt",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to DONE on",
+      "targetType": "TASK",
+      "targetName": "NOT WORKINH",
+      "timestamp": "2026-10-01T07:35:13.697Z"
+    },
+    {
+      "id": "act-562scfj-mup7ubh6",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "created new task",
+      "targetType": "TASK",
+      "targetName": "NOT WORKINH",
+      "timestamp": "2026-10-01T07:31:46.458Z"
+    },
+    {
+      "id": "act-hhn30a5-mup7i2nh",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "created new task",
+      "targetType": "TASK",
+      "targetName": "NO LOGIN",
+      "timestamp": "2026-10-01T07:22:15.149Z"
+    },
+    {
+      "id": "act-hinc579-mup7hwrq",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "created new task",
+      "targetType": "TASK",
+      "targetName": "NO LOGIN PAGE",
+      "timestamp": "2026-10-01T07:22:07.526Z"
+    },
+    {
+      "id": "act-5cawjgw-mup6zck8",
       "tenantId": "tenant-main",
       "userId": "user-current",
       "userName": "Current User",
       "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
       "action": "invited team member",
       "targetType": "MEMBER",
-      "targetName": "koulik de sarkar",
-      "timestamp": "2026-11-09T14:27:59.562Z",
+      "targetName": "SOMALIKA",
+      "timestamp": "2026-10-01T07:07:41.528Z",
       "details": "Role: PROJECT_MANAGER"
     },
     {
-      "id": "act-lcld2y4-mw9cuq5i",
+      "id": "act-6lsa5pg-mup6xxq7",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "invited team member",
+      "targetType": "MEMBER",
+      "targetName": "KOULIK DE SARKAR",
+      "timestamp": "2026-10-01T07:06:35.647Z",
+      "details": "Role: PROJECT_MANAGER"
+    },
+    {
+      "id": "act-61b1g40-mup6wpbr",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "uploaded document",
+      "targetType": "DOCUMENT",
+      "targetName": "BACK END DATA.md",
+      "timestamp": "2026-10-01T07:05:38.103Z"
+    },
+    {
+      "id": "act-y23d2ar-mup6uh1q",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to BACKLOG on",
+      "targetType": "TASK",
+      "targetName": "backend not working",
+      "timestamp": "2026-10-01T07:03:54.062Z"
+    },
+    {
+      "id": "act-u2lahf8-mup6ue5v",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to BACKLOG on",
+      "targetType": "TASK",
+      "targetName": "backend not working",
+      "timestamp": "2026-10-01T07:03:50.323Z"
+    },
+    {
+      "id": "act-ek54cpp-mup6syxd",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to DONE on",
+      "targetType": "TASK",
+      "targetName": "backend not working",
+      "timestamp": "2026-10-01T07:02:43.921Z"
+    },
+    {
+      "id": "act-auuc7sy-mup6s4lo",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to BACKLOG on",
+      "targetType": "TASK",
+      "targetName": "backend not working",
+      "timestamp": "2026-10-01T07:02:04.620Z"
+    },
+    {
+      "id": "act-5f8lm81-mup6rrjs",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to TODO on",
+      "targetType": "TASK",
+      "targetName": "backend not working",
+      "timestamp": "2026-10-01T07:01:47.704Z"
+    },
+    {
+      "id": "act-ulzpwt1-mup6otq4",
       "tenantId": "tenant-main",
       "userId": "user-current",
       "userName": "Current User",
       "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
       "action": "created new task",
       "targetType": "TASK",
-      "targetName": "data base",
-      "timestamp": "2026-11-09T14:27:09.414Z"
+      "targetName": "overall frontend",
+      "timestamp": "2026-10-01T06:59:30.556Z"
     },
     {
-      "id": "act-qxhrj2j-mw9cueai",
+      "id": "act-it8i95r-mup6ohjx",
       "tenantId": "tenant-main",
       "userId": "user-current",
       "userName": "Current User",
       "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
       "action": "created new task",
       "targetType": "TASK",
-      "targetName": "front end",
-      "timestamp": "2026-11-09T14:26:54.042Z"
+      "targetName": "data base problem",
+      "timestamp": "2026-10-01T06:59:14.781Z"
     },
     {
-      "id": "act-xytjjpy-mw9cua40",
+      "id": "act-9l29zx6-mup6o8go",
       "tenantId": "tenant-main",
       "userId": "user-current",
       "userName": "Current User",
       "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
       "action": "created new task",
       "targetType": "TASK",
-      "targetName": "fixing the backlog and security of the webpage",
-      "timestamp": "2026-11-09T14:26:48.624Z"
+      "targetName": "frontend",
+      "timestamp": "2026-10-01T06:59:03.000Z"
     },
     {
-      "id": "act-2ph0oxa-mw9ctw97",
+      "id": "act-fyjmtvu-mup6o28r",
       "tenantId": "tenant-main",
       "userId": "user-current",
       "userName": "Current User",
       "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
       "action": "created new task",
       "targetType": "TASK",
-      "targetName": "backend is not working proper;y",
-      "timestamp": "2026-11-09T14:26:30.667Z"
+      "targetName": "fix the back end",
+      "timestamp": "2026-10-01T06:58:54.939Z"
     },
     {
-      "id": "act-m1ywgxf-mw9cthz3",
+      "id": "act-xb30bui-mup6nu76",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "created new task",
+      "targetType": "TASK",
+      "targetName": "backend not working",
+      "timestamp": "2026-10-01T06:58:44.514Z"
+    },
+    {
+      "id": "act-leja8b8-mup6nra1",
       "tenantId": "tenant-main",
       "userId": "user-current",
       "userName": "Current User",
       "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
       "action": "created new project",
       "targetType": "PROJECT",
-      "targetName": "acharya",
-      "timestamp": "2026-11-09T14:26:12.159Z"
+      "targetName": "acharya erp",
+      "timestamp": "2026-10-01T06:58:40.729Z"
     }
   ],
   "notifications": [],
@@ -214,7 +474,31 @@
       "status": "ACTIVE",
       "designation": "Technical Project Lead",
       "department": "Engineering",
-      "joinedAt": "2026-11-09T14:22:51.302Z"
+      "joinedAt": "2026-10-01T06:46:35.503Z"
+    },
+    {
+      "name": "KOULIK DE SARKAR",
+      "email": "koulikk_25mcav@acharya.ac.in",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
+      "role": "PROJECT_MANAGER",
+      "status": "ACTIVE",
+      "designation": "Full Stack Developer",
+      "department": "Engineering",
+      "id": "user-bx5ht7b-mup6xxq7",
+      "tenantId": "tenant-main",
+      "joinedAt": "2026-10-01T07:06:35.647Z"
+    },
+    {
+      "name": "SOMALIKA",
+      "email": "somalikadebadhikar@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
+      "role": "MEMBER",
+      "status": "ACTIVE",
+      "designation": "Full Stack Developer",
+      "department": "WEB DEVLOPRT",
+      "id": "user-gv3ql5p-mup6zck7",
+      "tenantId": "tenant-main",
+      "joinedAt": "2026-10-01T07:07:41.527Z"
     },
     {
       "id": "user-superadmin",
@@ -226,19 +510,7 @@
       "status": "ACTIVE",
       "designation": "Faculty Guide & System Architect",
       "department": "Computer Science & Engineering",
-      "joinedAt": "2026-11-09T14:22:51.302Z"
-    },
-    {
-      "name": "koulik de sarkar",
-      "email": "koulik19092000@gmail.com",
-      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
-      "role": "PROJECT_MANAGER",
-      "status": "ACTIVE",
-      "designation": "Full Stack Developer",
-      "department": "Engineering",
-      "id": "user-tx56gqw-mw9cvsug",
-      "tenantId": "tenant-main",
-      "joinedAt": "2026-11-09T14:27:59.560Z"
+      "joinedAt": "2026-10-01T06:46:35.503Z"
     }
   ]
 }
