@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-09T14:25:37.531Z",
+  "exportedAt": "2026-11-09T14:26:14.295Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -19,11 +19,44 @@
       "industry": "Software & Technology"
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "name": "acharya",
+      "key": "A",
+      "description": "clg",
+      "status": "ACTIVE",
+      "progress": 0,
+      "startDate": "2026-11-09",
+      "dueDate": "2027-01-08",
+      "managerId": "user-superadmin",
+      "budget": 25000,
+      "spent": 0,
+      "teamMemberIds": [
+        "user-superadmin"
+      ],
+      "category": "Cloud Infrastructure",
+      "priority": "HIGH",
+      "color": "#4f46e5",
+      "id": "proj-26ls7mc-mw9cthz2",
+      "tenantId": "tenant-main"
+    }
+  ],
   "tasks": [],
   "sprints": [],
   "documents": [],
-  "activities": [],
+  "activities": [
+    {
+      "id": "act-m1ywgxf-mw9cthz3",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "created new project",
+      "targetType": "PROJECT",
+      "targetName": "acharya",
+      "timestamp": "2026-11-09T14:26:12.159Z"
+    }
+  ],
   "notifications": [],
   "users": [
     {
