@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-09T15:00:51.324Z",
+  "exportedAt": "2026-11-09T15:01:31.515Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -112,7 +112,7 @@
       "projectId": "proj-26ls7mc-mw9cthz2",
       "title": "data base",
       "description": "Created via rapid inline task adder.",
-      "status": "IN_REVIEW",
+      "status": "DONE",
       "priority": "MEDIUM",
       "assigneeId": "user-superadmin",
       "reporterId": "user-superadmin",
@@ -128,12 +128,23 @@
       "id": "task-yrubomi-mw9cuq5h",
       "tenantId": "tenant-main",
       "createdAt": "2026-11-09T14:27:09.413Z",
-      "updatedAt": "2026-11-09T15:00:32.247Z"
+      "updatedAt": "2026-11-09T15:01:29.507Z"
     }
   ],
   "sprints": [],
   "documents": [],
   "activities": [
+    {
+      "id": "act-loy18j4-mw9e2vqc",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to DONE on",
+      "targetType": "TASK",
+      "targetName": "data base",
+      "timestamp": "2026-11-09T15:01:29.508Z"
+    },
     {
       "id": "act-sb8c09i-mw9e20pr",
       "tenantId": "tenant-main",
