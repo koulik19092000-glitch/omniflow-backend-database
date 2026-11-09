@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-09T15:00:28.107Z",
+  "exportedAt": "2026-11-09T15:00:34.261Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -114,7 +114,7 @@
       "description": "Created via rapid inline task adder.",
       "status": "IN_REVIEW",
       "priority": "MEDIUM",
-      "assigneeId": "",
+      "assigneeId": "user-superadmin",
       "reporterId": "user-superadmin",
       "dueDate": "2026-11-16",
       "estimatedHours": 4,
@@ -128,7 +128,7 @@
       "id": "task-yrubomi-mw9cuq5h",
       "tenantId": "tenant-main",
       "createdAt": "2026-11-09T14:27:09.413Z",
-      "updatedAt": "2026-11-09T15:00:26.075Z"
+      "updatedAt": "2026-11-09T15:00:32.247Z"
     }
   ],
   "sprints": [],
