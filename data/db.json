@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-12T05:32:17.622Z",
+  "exportedAt": "2026-11-12T05:34:00.176Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -68,7 +68,7 @@
       "projectId": "proj-26ls7mc-mw9cthz2",
       "title": "fixing the backlog and security of the webpage",
       "description": "Created via rapid inline task adder.",
-      "status": "IN_REVIEW",
+      "status": "DONE",
       "priority": "CRITICAL",
       "assigneeId": "user-superadmin",
       "reporterId": "user-superadmin",
@@ -84,7 +84,7 @@
       "id": "task-cqzmjti-mw9cua3z",
       "tenantId": "tenant-main",
       "createdAt": "2026-11-09T14:26:48.623Z",
-      "updatedAt": "2026-11-09T15:00:49.309Z"
+      "updatedAt": "2026-11-12T05:33:58.158Z"
     },
     {
       "projectId": "proj-26ls7mc-mw9cthz2",
@@ -134,6 +134,17 @@
   "sprints": [],
   "documents": [],
   "activities": [
+    {
+      "id": "act-nzguarj-mwd44ljj",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to DONE on",
+      "targetType": "TASK",
+      "targetName": "fixing the backlog and security of the webpage",
+      "timestamp": "2026-11-12T05:33:58.159Z"
+    },
     {
       "id": "act-l9jb7it-mwd42eev",
       "tenantId": "tenant-main",
