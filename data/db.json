@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-20T04:58:11.361Z",
+  "exportedAt": "2026-11-20T05:02:52.059Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -46,7 +46,7 @@
       "projectId": "proj-26ls7mc-mw9cthz2",
       "title": "backend is not working proper;y",
       "description": "Created via rapid inline task adder.",
-      "status": "DONE",
+      "status": "BACKLOG",
       "priority": "MEDIUM",
       "assigneeId": "user-superadmin",
       "reporterId": "user-superadmin",
@@ -71,7 +71,7 @@
       "id": "task-3wa3k4h-mw9ctw94",
       "tenantId": "tenant-main",
       "createdAt": "2026-11-09T14:26:30.664Z",
-      "updatedAt": "2026-11-20T04:58:01.090Z"
+      "updatedAt": "2026-11-20T05:02:50.035Z"
     },
     {
       "projectId": "proj-26ls7mc-mw9cthz2",
@@ -143,6 +143,17 @@
   "sprints": [],
   "documents": [],
   "activities": [
+    {
+      "id": "act-ol9hac8-mwoijdf8",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to BACKLOG on",
+      "targetType": "TASK",
+      "targetName": "backend is not working proper;y",
+      "timestamp": "2026-11-20T05:02:50.036Z"
+    },
     {
       "id": "act-xxoxj39-mwoidcuc",
       "tenantId": "tenant-main",
