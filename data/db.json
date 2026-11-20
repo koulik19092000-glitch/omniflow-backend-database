@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-20T05:06:12.407Z",
+  "exportedAt": "2026-11-20T05:06:18.944Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -42,74 +42,6 @@
     }
   ],
   "tasks": [
-    {
-      "projectId": "proj-26ls7mc-mw9cthz2",
-      "title": "backend is not working proper;y",
-      "description": "Created via rapid inline task adder.",
-      "status": "BACKLOG",
-      "priority": "MEDIUM",
-      "assigneeId": "user-superadmin",
-      "reporterId": "user-superadmin",
-      "dueDate": "2026-11-16",
-      "estimatedHours": 4,
-      "loggedHours": 0,
-      "tags": [
-        "FastTrack"
-      ],
-      "subtasks": [
-        {
-          "id": "sub-ksr4yfi-mwoijmd4",
-          "title": "Technical specification & architecture design for: \"backend is not working proper;y\"",
-          "completed": false
-        },
-        {
-          "id": "sub-7sql9of-mwoijmd5",
-          "title": "Core implementation and business logic integration",
-          "completed": false
-        },
-        {
-          "id": "sub-12wdizf-mwoijmd5",
-          "title": "UI components, user feedback alerts, and edge case handling",
-          "completed": false
-        },
-        {
-          "id": "sub-37y6dfa-mwoijmd5",
-          "title": "Automated test suite and peer review validation",
-          "completed": false
-        }
-      ],
-      "attachments": [],
-      "comments": [
-        {
-          "id": "comm-fkwmow9-mwoi0m01",
-          "userId": "user-superadmin",
-          "userName": "Dr. Rajendra Jotawar",
-          "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
-          "content": "l",
-          "createdAt": "2026-11-20T04:48:14.689Z"
-        },
-        {
-          "id": "comm-i05zdmc-mwoijmd4",
-          "userId": "user-superadmin",
-          "userName": "AI Smart Assistant",
-          "userAvatar": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=120&auto=format&fit=crop&q=80",
-          "content": "🤖 **AI Generated Acceptance Criteria & Scope:**\n• [ ] Feature meets all specified functional requirements\n• [ ] User feedback toasts provide clear visual confirmation\n• [ ] Full TypeScript typing with zero any escapes\n• [ ] Documented in release notes and team activity stream\n\n**Key Test Cases:**\n• Happy path executes successfully with accurate state updates\n• Invalid user input displays helpful inline validation messages\n• Component gracefully handles empty and loading states",
-          "createdAt": "2026-11-20T05:03:01.624Z"
-        },
-        {
-          "id": "comm-4mj3lz6-mwoino0s",
-          "userId": "user-superadmin",
-          "userName": "AI Smart Assistant",
-          "userAvatar": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=120&auto=format&fit=crop&q=80",
-          "content": "🤖 **AI Generated Acceptance Criteria & Scope:**\n• [ ] Feature meets all specified functional requirements\n• [ ] User feedback toasts provide clear visual confirmation\n• [ ] Full TypeScript typing with zero any escapes\n• [ ] Documented in release notes and team activity stream\n\n**Key Test Cases:**\n• Happy path executes successfully with accurate state updates\n• Invalid user input displays helpful inline validation messages\n• Component gracefully handles empty and loading states",
-          "createdAt": "2026-11-20T05:06:10.396Z"
-        }
-      ],
-      "id": "task-3wa3k4h-mw9ctw94",
-      "tenantId": "tenant-main",
-      "createdAt": "2026-11-09T14:26:30.664Z",
-      "updatedAt": "2026-11-20T05:06:10.397Z"
-    },
     {
       "projectId": "proj-26ls7mc-mw9cthz2",
       "title": "fixing the backlog and security of the webpage",
@@ -180,6 +112,17 @@
   "sprints": [],
   "documents": [],
   "activities": [
+    {
+      "id": "act-ya0dul2-mwoint2l",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "deleted task",
+      "targetType": "TASK",
+      "targetName": "backend is not working proper;y",
+      "timestamp": "2026-11-20T05:06:16.941Z"
+    },
     {
       "id": "act-ol9hac8-mwoijdf8",
       "tenantId": "tenant-main",
