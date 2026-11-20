@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-20T05:06:27.300Z",
+  "exportedAt": "2026-11-20T05:06:40.385Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -42,6 +42,28 @@
     }
   ],
   "tasks": [
+    {
+      "projectId": "proj-26ls7mc-mw9cthz2",
+      "title": "hi",
+      "description": "Created via rapid inline task adder.",
+      "status": "BACKLOG",
+      "priority": "MEDIUM",
+      "assigneeId": "user-superadmin",
+      "reporterId": "user-superadmin",
+      "dueDate": "2026-11-27",
+      "estimatedHours": 4,
+      "loggedHours": 0,
+      "tags": [
+        "FastTrack"
+      ],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "id": "task-zcyjd9z-mwoio9ls",
+      "tenantId": "tenant-main",
+      "createdAt": "2026-11-20T05:06:38.368Z",
+      "updatedAt": "2026-11-20T05:06:38.368Z"
+    },
     {
       "projectId": "proj-26ls7mc-mw9cthz2",
       "title": "fixing the backlog and security of the webpage",
@@ -112,6 +134,17 @@
   "sprints": [],
   "documents": [],
   "activities": [
+    {
+      "id": "act-ipsmown-mwoio9lt",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "created new task",
+      "targetType": "TASK",
+      "targetName": "hi",
+      "timestamp": "2026-11-20T05:06:38.369Z"
+    },
     {
       "id": "act-ya0dul2-mwoint2l",
       "tenantId": "tenant-main",
