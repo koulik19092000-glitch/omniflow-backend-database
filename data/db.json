@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-20T05:18:13.772Z",
+  "exportedAt": "2026-11-20T05:24:46.106Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -42,6 +42,28 @@
     }
   ],
   "tasks": [
+    {
+      "projectId": "proj-26ls7mc-mw9cthz2",
+      "title": "hi",
+      "description": "Created via rapid inline task adder.",
+      "status": "BACKLOG",
+      "priority": "MEDIUM",
+      "assigneeId": "user-superadmin",
+      "reporterId": "user-superadmin",
+      "dueDate": "2026-11-27",
+      "estimatedHours": 4,
+      "loggedHours": 0,
+      "tags": [
+        "FastTrack"
+      ],
+      "subtasks": [],
+      "attachments": [],
+      "comments": [],
+      "id": "task-xy9xtjk-mwojbjcv",
+      "tenantId": "tenant-main",
+      "createdAt": "2026-11-20T05:24:44.095Z",
+      "updatedAt": "2026-11-20T05:24:44.095Z"
+    },
     {
       "projectId": "proj-26ls7mc-mw9cthz2",
       "title": "hi",
@@ -134,6 +156,17 @@
   "sprints": [],
   "documents": [],
   "activities": [
+    {
+      "id": "act-e6ri960-mwojbjcw",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "created new task",
+      "targetType": "TASK",
+      "targetName": "hi",
+      "timestamp": "2026-11-20T05:24:44.096Z"
+    },
     {
       "id": "act-3owfnhc-mwoj34ml",
       "tenantId": "tenant-main",
