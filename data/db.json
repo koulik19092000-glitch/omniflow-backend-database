@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "exportedAt": "2026-11-20T04:58:03.101Z",
+  "exportedAt": "2026-11-20T04:58:11.361Z",
   "tenants": [
     {
       "id": "tenant-main",
@@ -99,7 +99,7 @@
       "projectId": "proj-26ls7mc-mw9cthz2",
       "title": "front end",
       "description": "Created via rapid inline task adder.",
-      "status": "IN_REVIEW",
+      "status": "DONE",
       "priority": "MEDIUM",
       "assigneeId": "user-superadmin",
       "reporterId": "user-superadmin",
@@ -115,7 +115,7 @@
       "id": "task-xqqwmpj-mw9cueah",
       "tenantId": "tenant-main",
       "createdAt": "2026-11-09T14:26:54.041Z",
-      "updatedAt": "2026-11-12T05:32:15.603Z"
+      "updatedAt": "2026-11-20T04:58:09.347Z"
     },
     {
       "projectId": "proj-26ls7mc-mw9cthz2",
@@ -143,6 +143,17 @@
   "sprints": [],
   "documents": [],
   "activities": [
+    {
+      "id": "act-xxoxj39-mwoidcuc",
+      "tenantId": "tenant-main",
+      "userId": "user-current",
+      "userName": "Current User",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+      "action": "moved status to DONE on",
+      "targetType": "TASK",
+      "targetName": "front end",
+      "timestamp": "2026-11-20T04:58:09.348Z"
+    },
     {
       "id": "act-4lu81ij-mwoid6gz",
       "tenantId": "tenant-main",
